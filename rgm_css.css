@@ -1,0 +1,46 @@
+body{
+  background-image: url("https://media.giphy.com/media/QLYXrkvUmmh9u/giphy.gif");
+  background-size: cover;
+  background-attachment:fixed;
+  
+}
+
+#container{
+  height:100%;
+}
+
+#quote-box {
+  text-align: center;
+  
+  font-family: Pacifico;
+  position:relative;
+
+
+}
+
+#text {
+  padding: 15px;
+  height:10vw;
+  background-color: rgb(141, 141, 141, 0.06);
+  color: rgba(2, 15, 1, 0.842);
+  text-align:middle;
+  margin-bottom:0;
+  margin-top:10vw;
+  margin-left:15vw;
+  margin-right:15vw;
+  font-size:6vh;
+}
+#author {
+  height: 8vw;
+  color: rgb(8, 11, 14);
+  margin-top:15px;
+}
+
+#new-quote,
+#tweet-quote {
+  background-color: transparent;
+  border-style: groove;
+  color: rgba(216, 226, 215, 0.842);
+ position: static;
+  margin:10px;
+}
